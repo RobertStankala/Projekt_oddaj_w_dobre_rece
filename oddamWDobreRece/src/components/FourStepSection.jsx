@@ -36,7 +36,7 @@ function FourStepSection() {
 					<p>wybierz zaufane miejsce</p>
 				</div>
 			</div>
-			<button>oddaj rzeczy</button>
+			<button>oddaj rzeczy!</button>
 		</div>
 	);
 }
