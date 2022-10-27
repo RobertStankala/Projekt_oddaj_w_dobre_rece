@@ -1,0 +1,33 @@
+.column__section{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../assets/Columns Background.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 384px;
+    background-color: aqua;
+    color: $color-two;
+}
+.single__column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.column__num{
+    font-size: 90px;
+    line-height: 122px;
+    margin-bottom: 10px;
+    margin-top: 46px;
+}
+.column__title{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+.column__desc{
+    font-size: 16px;
+    line-height: 18px;
+    width: 334px;
+}

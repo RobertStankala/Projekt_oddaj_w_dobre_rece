@@ -1,0 +1,34 @@
+.nav__container {
+	display: flex;
+	flex-direction: column;
+    margin-right: 80px;
+    margin-top: 37px;
+    float: right;
+    
+}
+.nav__log__in{
+    padding-top: 10px;
+    cursor: pointer;
+}
+.nav__log__create {
+	border: 0.75px solid #FAD648;
+    cursor: pointer;
+    padding: 10px;
+}
+.nav__log__ul {
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+    margin-bottom: 17px;
+    color: $color-four;
+    font-size: 14px;
+}
+.nav__sections__ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 55px;
+}
+.nav__sections__li {
+    cursor: pointer;
+    font-size: 18px;
+}
