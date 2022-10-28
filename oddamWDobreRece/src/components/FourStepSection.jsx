@@ -7,36 +7,36 @@ import arrows from "../assets/Icon-4.svg";
 
 function FourStepSection() {
 	return (
-		<div>
+		<div className="four__step__container">
 			<h2 className="four__step__title">Wystarczą 4 proste kroki</h2>
 			<img src={decor} className="four__step__decor"></img>
 			<div className="four__step__columns">
-				<div>
-					<img src={shirt} />
-					<p>Wybierz rzeczy</p>
-					<div></div>
-					<p>ubrania, zabawki, sprzęt i inne</p>
+				<div className="single__step">
+					<img src={shirt} className="four__step__img"/>
+					<p className="four__step__name">Wybierz rzeczy</p>
+					<div className="four__step__bar"></div>
+					<p className="four__step__decs">ubrania, zabawki, sprzęt i inne</p>
 				</div>
-				<div>
-					<img src={bag} />
-					<p>Spakuj je</p>
-					<div></div>
-					<p>skorzystaj z worków na śmieci</p>
+				<div className="single__step">
+					<img src={bag} className="four__step__img"/>
+					<p className="four__step__name">Spakuj je</p>
+					<div className="four__step__bar"></div>
+					<p className="four__step__decs">skorzystaj z worków na śmieci</p>
 				</div>
-				<div>
-					<img src={magnifier} />
-					<p>Zdecyduj komu chcesz pomóc</p>
-					<div></div>
-					<p>wybierz zaufane miejsce</p>
+				<div className="single__step">
+					<img src={magnifier} className="four__step__img"/>
+					<p className="four__step__name">Zdecyduj komu <br/>chcesz pomóc</p>
+					<div className="four__step__bar"></div>
+					<p className="four__step__decs">wybierz zaufane miejsce</p>
 				</div>
-				<div>
-					<img src={arrows} />
-					<p>Zamów kuriera</p>
-					<div></div>
-					<p>wybierz zaufane miejsce</p>
+				<div className="single__step">
+					<img src={arrows} className="four__step__img"/>
+					<p className="four__step__name">Zamów kuriera</p>
+					<div className="four__step__bar"></div>
+					<p className="four__step__decs">wybierz zaufane miejsce</p>
 				</div>
 			</div>
-			<button>oddaj rzeczy!</button>
+			<button className="four__step__btn">oddaj rzeczy!</button>
 		</div>
 	);
 }
