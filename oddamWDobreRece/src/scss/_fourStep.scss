@@ -1,5 +1,5 @@
 .four__step__container {
-	width: 100vw;
+	width: 100%;
     text-align: center;
 }
 .four__step__title {
@@ -8,6 +8,7 @@
     text-align: center;
     margin-top: 55px;
     margin-bottom: 40px;
+    letter-spacing: -0.76px;
 }
 .four__step__decor {
     display: flex;
@@ -47,14 +48,20 @@
 .four__step__decs {
 }
 .four__step__btn {
+    display: inline-block;
+    text-align: center;
     border: 0.75px solid #3C3C3C;
     background-color: transparent;
     padding: 13px 51px;
     font-size: 36px;
+    line-height: 45px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: $font-col-primary;
     font-family: $font-base;
     font-weight: 300;
     width: 300px;
-    margin: 35px;
+    height: 100px;
+    margin: 35px 0 80px 0;
     cursor: pointer;
 }

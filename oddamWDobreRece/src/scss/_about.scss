@@ -1,0 +1,39 @@
+.about__container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.about__content{
+    width: 50vw;
+    padding-top: 100px;
+    background-color: $color-one;
+}
+.about__title{
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+}
+.about__decor{
+    display: flex;
+    margin: 0 auto 61px auto;
+}
+.about__desc{
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.6px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about__sign{
+    margin-bottom: 40px;
+    display: flex;
+    margin-left: 30vw;
+}
+.about__people{
+    background-image: url(../assets/People.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+}

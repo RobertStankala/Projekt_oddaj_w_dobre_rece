@@ -1,0 +1,68 @@
+.register__container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.register__title{
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: .8px;
+    margin-bottom: 20px;
+}
+.register__img{
+    margin-bottom: 20px;
+}
+.register__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 385px;
+    height: 328px;
+    background-color: $color-one;
+    margin-bottom: 20px;
+}
+.register__label{
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: start;
+    width: 250px;
+
+}
+.register__input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #3C3C3C;
+    margin-bottom: 30px;
+    width: 250px;
+    font-size: 16px;
+    line-height: 38px;
+}
+.register__buttons{
+    display: flex;
+    gap: 310px;
+}
+.register__buttons__register{
+    color: font-col-primary;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 63px;
+    font-weight: light;
+    
+
+    &:visited{
+    color: $font-col-primary;
+    }
+}
+.register__buttons__login{
+    border: 0.75px solid #3C3C3C;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 15px;
+}

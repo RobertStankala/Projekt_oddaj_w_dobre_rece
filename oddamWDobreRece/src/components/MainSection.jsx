@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import decor from "../assets/Decoration.svg";
 
 function MainSection() {
@@ -8,8 +10,8 @@ function MainSection() {
 			<h1 className="main__title">Zacznij pomagać!<br></br> Oddaj niechciane rzeczy w zaufane ręce</h1>
 			<img src={decor} className="main__decor"></img>
 			<div className="main__buttons">
-				<button className="btn">oddaj rzeczy</button>
-				<button className="btn">zorganizuj zbiórkę</button>
+				<Link to="/login" className="btn">oddaj rzeczy</Link>
+				<Link to="/login" className="btn">zorganizuj zbiórkę</Link>
 			</div>
 			</div>
 	</div>;

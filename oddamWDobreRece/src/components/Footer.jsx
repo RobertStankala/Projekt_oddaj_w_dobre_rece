@@ -1,7 +1,7 @@
 import React from "react";
 
 function Footer() {
-	return <div>Footer</div>;
+	return <div className="footer__container">Copyright by Coders Lab</div>;
 }
 
 export default Footer;

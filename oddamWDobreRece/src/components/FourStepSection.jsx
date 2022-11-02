@@ -1,4 +1,7 @@
 import React from "react";
+import { Element } from "react-scroll";
+import {Link} from "react-router-dom"
+
 import decor from "../assets/Decoration.svg";
 import shirt from "../assets/Icon-1.svg";
 import bag from "../assets/Icon-2.svg";
@@ -7,7 +10,7 @@ import arrows from "../assets/Icon-4.svg";
 
 function FourStepSection() {
 	return (
-		<div className="four__step__container">
+		<Element name="four__step__section" className="four__step__container">
 			<h2 className="four__step__title">Wystarczą 4 proste kroki</h2>
 			<img src={decor} className="four__step__decor"></img>
 			<div className="four__step__columns">
@@ -36,8 +39,8 @@ function FourStepSection() {
 					<p className="four__step__decs">wybierz zaufane miejsce</p>
 				</div>
 			</div>
-			<button className="four__step__btn">oddaj rzeczy!</button>
-		</div>
+			<Link to="/login" className="four__step__btn">oddaj<br/> rzeczy</Link>
+		</Element>
 	);
 }
 

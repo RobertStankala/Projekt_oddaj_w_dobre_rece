@@ -17,6 +17,7 @@
     text-align: center;
     padding-top: 275px;
     line-height: 55px;
+    letter-spacing: -0.76px;
 }
 .main__decor{
     margin-left: 213px;
@@ -24,6 +25,7 @@
     margin-bottom: 65px;
 }
 .btn{
+    display: inline-block;
     border: 0.75px solid #3C3C3C;
     background-color: transparent;
     padding: 13px 51px;
@@ -31,8 +33,10 @@
     text-transform: uppercase;
     font-family: $font-base;
     font-weight: 300;
-    width: 300px;
+    width: 200px;
     margin-right: 44px;
-    margin-left: 12px;
+    text-align: center;
     cursor: pointer;
+    color: $font-col-primary;
+    text-decoration: none;
 }

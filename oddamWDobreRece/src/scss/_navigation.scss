@@ -9,11 +9,15 @@
 .nav__log__in{
     padding-top: 10px;
     cursor: pointer;
+    color: $font-col-primary;
+    text-decoration: none;
 }
 .nav__log__create {
 	border: 0.75px solid #FAD648;
     cursor: pointer;
     padding: 10px;
+    color: $font-col-primary;
+    text-decoration: none;
 }
 .nav__log__ul {
     display: flex;
@@ -31,4 +35,6 @@
 .nav__sections__li {
     cursor: pointer;
     font-size: 18px;
+    color: $font-col-primary;
+    text-decoration: none;
 }
