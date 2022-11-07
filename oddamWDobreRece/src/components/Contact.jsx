@@ -1,11 +1,15 @@
 import React from "react";
 
+import Footer from "./Footer";
+
 import { Element } from "react-scroll";
 
-import Footer from "./Footer";
 import decor from "../assets/Decoration.svg";
+import fb from "../assets/Facebook.svg";
+import insta from "../assets/Instagram.svg";
 
 function Contact() {
+
 	return (
 		<Element name="contact" className="contact__container">
 				<div className="contact__content">
@@ -29,7 +33,13 @@ function Contact() {
 					</form>
 					<button className="contact__btn">wyślij</button>
 				</div>
-					<Footer />
+				<div className="contact__footer">
+					<span>Copyright by Coders Lab</span>
+					<div className="contact__icons">
+						<img className="contact__fb" src={fb} />
+						<img className="contact__insta"  src={insta} />
+					</div>
+				</div>
 		</Element>
 	);
 }

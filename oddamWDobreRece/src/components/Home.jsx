@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import MainSection from "./MainSection";
 import ColumnSection from "./ColumnSection";

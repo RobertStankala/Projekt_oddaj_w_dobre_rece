@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Logout from "./components/Logout";
 
 import "./scss/App.scss";
 
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/" element={<Home />}></Route>
 				<Route path="/login" element={<Login />}></Route>
 				<Route path="/register" element={<Register />}></Route>
+				<Route path="/logout" element={<Logout />}></Route>
 			</Routes>
 		</Router>
 	);
