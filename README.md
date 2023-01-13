@@ -1,4 +1,6 @@
-# Projekt: oddaj w dobre ręce
+# Projekt: oddaj w dobre ręce ( Project: give it to good hands )
+website with a collection of things for the needy
+
 
 Used technologies:
 
